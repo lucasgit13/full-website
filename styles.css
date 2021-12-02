@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+main {
+    flex: 1;
+}
+
 /* HEADER */
 
 .header-signup:hover {
@@ -22,6 +26,7 @@ header {
     justify-content: center;
     /* background-color: #1f2937; */
     background: linear-gradient(179deg,#1f2937 0%, #1e3b52 80%);
+    height: 600px;
 }
 
 .header {
@@ -30,7 +35,7 @@ header {
     gap: 100px;
     margin-top: 12px;
     margin-bottom: 100px;
-    flex-basis: 75%;
+    flex-basis: 70%;
 }
 
 .header-logo {
@@ -77,6 +82,7 @@ ul {
 }
 
 .header-image {
+    display: flex;
     width: 100%;
     height: 220px;
 }
@@ -108,10 +114,11 @@ ul {
 .info { 
     /* border: 2px solid black; */
     text-align: center;
+    /* height: 500px; */
 }
 
 .info-title {
-    margin: 30px;
+    margin: 64px 0;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -123,12 +130,12 @@ ul {
     align-items: center;
     gap: 64px;
     margin-top: 32px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 .item > img {
     width: 150px;
-    border: 4px solid rgb(11, 198, 231);
+    border: 4px solid #3882f6;
     border-radius: 10px;
 }
 
@@ -140,6 +147,7 @@ ul {
 
 .quote-container {
     display: flex;
+    height: 500px;
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
@@ -150,6 +158,7 @@ ul {
 .quote {
     display: flex;
     flex-direction: column;
+    flex-basis: 70%;
 }
 
 .quote-text {
@@ -196,11 +205,16 @@ ul {
     color: #e5e7eb;
 }
 
+.action-button:hover {
+    color: #3882f6;
+    background-color: white;
+    transform: scale(1.03);
+}
+
 .action-button {
     background-color: #3882f6;
     color: white;
     padding: 8px 32px;
-    margin-top: 12px;
     border: 3px solid white;
     border-radius: 11px;
     font-size: 18px;
