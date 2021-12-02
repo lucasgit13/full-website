@@ -206,3 +206,15 @@ ul {
     font-size: 18px;
     font-weight: bolder;
 }
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font: 18px;
+}
